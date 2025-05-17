@@ -1,0 +1,83 @@
+/* ======= Responsive Styles for Small Screens ======= */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+  #lastModified {
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: white;
+
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  #menuToggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    margin-left: auto;
+  }
+
+  nav {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: rgb(76, 3, 145);
+    padding: 10px 0;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    padding: 8px;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+  }
+
+  main h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .temple-image {
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    text-align: center;
+    background-color: rgb(76, 3, 145);
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 17px;
+  }
+}
