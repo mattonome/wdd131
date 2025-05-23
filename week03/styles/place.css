@@ -35,7 +35,6 @@
   }
   
   .weather-icon::after {
-    /* content: ""; */
     margin-left: 0.5rem;
     
   }
@@ -50,8 +49,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     font-size: 0.9rem;
     
-    /* border-radius: 8px; */
-    /* overflow: hidden; Ensures child elements' borders don't spill */
+    
  }
 
   .data h2{
@@ -63,8 +61,7 @@
     padding: 10px;
     width: 80%;
     right: 20%;
-    /* border-top-left-radius: 8px;
-    border-top-right-radius: 8px; */
+    
   }
 
   .data p{
