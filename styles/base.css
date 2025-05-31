@@ -20,6 +20,12 @@ body {
   background-color: var(--light-color); /* Optional: Light background */
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 
 header {
   padding: 1rem 3rem;
