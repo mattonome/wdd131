@@ -49,6 +49,14 @@ main {
     min-height: 20rem;
 }
 
+header{
+    background-color: purple;
+}
+h1{
+    color: white;
+    
+
+}
 
 /*----------- FORM STYLING SECTION --------------*/
 
@@ -56,7 +64,8 @@ main {
     margin: 2rem 0; /*margin top and buttom*/
     border: 1px solid #ddd;
     border-radius: 6px;
-    padding: .5rem 2%; /*this is space inside the fieldset*/
+    padding: .2rem 2%; /*this is space inside the fieldset*/
+    background-color: #fbf5fa;
 
 }
 
@@ -73,10 +82,16 @@ main {
 }
 
 .wf1 div{
-    padding-top: 1rem;
+    padding-top: 12px;
     color: #445ba9;
     font-size: .9rem;
 
+}
+
+.wf1 select{
+    height: 44px;
+    width: 96%;
+    max-width: 400px;
 }
 
 .wf1 input[type = "text"],
@@ -98,8 +113,12 @@ main {
 }
 
 .wf1 input[type = "radio"],
-.wf1 input[type = "checkbox"],{
-    margin-right: 6px;
+.wf1 input[type = "checkbox"]{
+    margin-right: 0;
+    margin-top:0;
+   
+    
+    
 
 }
 
@@ -123,6 +142,20 @@ main {
 .wf1 input:required:valid{
     border-bottom: green;
 }
+
+textarea {
+  width: 100%;
+  max-width: 400px;
+  height: 150px;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
 
 
 

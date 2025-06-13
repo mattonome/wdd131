@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is a product review form created by Akhabue Onome Matthew which allow user to input goods and service they need" />
+  <meta name="author" content="Akhabue Onome Matthew" />
+  <title>Product Review</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <script src="scripts/form.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>
+      Product Review</h1>
+    <!-- <nav>
+      <ul>
+        <li><a href="https://linkedin.com/in/matthew-onome-akhabue-459045214" class="active">LinkedIn</a></li>
+        <li><a href="https://byupw.instructure.com">Canvas</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a></li>
+        <li><a href="" target="_blank">Final Project</a></li>
+      </ul>
+    </nav> -->
+  </header>
+
+    
+    
+<!-- NAVIGATION HERE -->
+    <!-- <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li class="active"><a href="#">Propose</a></li>
+            <li><a href="#">Winners</a></li>
+            <li><a href="#">Contact</a></li>    
+        </ul>
+    </nav> -->
+    
+    
+<!-- CONTENT HERE -->
+<main>
+    <form method="get" action="review.html" class="wf1">
+        <fieldset>
+            <!-- <legend>Applicant Information</legend> -->
+            <div>Product Name</div>
+            <select name="subject" required>
+              <option value="">Please Select </option>
+              <option value="software">Air Conditioner</option>
+              <option value="creative">Laptop</option>
+              <option value="info">Air drier</option>
+              <option value="data">Television</option>
+              <option value="construction">Washing Machine</option>
+              <option value="security">Home Theater</option>
+              <option value="business">Microwave</option>
+            </select>
+        <!-- </fieldset> -->
+
+        <!-- <fieldset> -->
+            <!-- <legend>Course Information</legend> -->
+            <div>Overall Ratinge</div>
+            <label><input type="radio" name="audience" value="beginner">Beginner</label>
+            <label><input type="radio" name="audience" value="intermediate">Intermediate</label>
+            <label><input type="radio" name="audience" value="advance">Advance</label>
+        
+            <div>Date of Installation</div>
+            
+            <input type="date" name="completedDate" required>
+
+            <div>Which features did you find useful in the product?<br><i>(Check all that apply)</i></div>
+            <label><input type="checkbox" name="life" value="yes">Durability</label>
+            <label><input type="checkbox" name="flexible" value="yes">Ease of Use</label>
+            <label><input type="checkbox" name="rating" value="yes">Performance</label>
+            <label><input type="checkbox" name="look" value="yes">Design</label>
+        <!-- </fieldset> -->
+
+        <!-- <fieldset> -->
+            <!-- <legend>Funding</legend> -->
+            <!-- <label>Anticipated Complrtion Date<input type="date" name="completedDate"></label>
+            <label>Course Subject -->
+                <!-- <select name="subject">
+                    <option value="">Please Select &#9662;</option>
+                    <option value="software">Software Development</option>
+                    <option value="creative">Creative Professional</option>
+                    <option value="info">Information Technology</option>
+                    <option value="data">Data Professional</option>
+                    <option value="construction">Construction</option>
+                    <option value="security">Cyber Security</option>
+                    <option value="business">Business Professional</option>
+                </select> -->
+            </label>
+
+            <div>Written Review <span>(Optional)</span><div>
+            <textarea id="message" name="message" placeholder="Type your message here..." ></textarea>
+
+            <div>Your Name<span>(Optional)</span></div>
+            <input type="text" name="text">
+
+        </fieldset>
+
+        <input type="submit" value="Post Review">
+
+    </form>
+        
+
+          
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+    <p>&copy; <span id="currentYear"></span> Akhabue Onome Matthew | Nigeria</p>
+    <p id="lastModified" class="highlight-name"></p>
+  </footer>
+</body>
+</html>
