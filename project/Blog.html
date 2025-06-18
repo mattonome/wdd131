@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<!--Here Is the mobile view icon link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+<!----This is google analytics-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R64MMM3YT9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R64MMM3YT9');
+</script>
+
+
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> <!--Here Is the closing icon for mobile -->
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSES</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <!--Here Is the menu icon for mobile view -->
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>    
+        <h1>Our certificate and Online Programs for 2025</h1>
+
+</section>
+
+<!---Blog page content-->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our certificate and Online Programs for 2025</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt asperiores autem praesentium. Sint odio nesciunt dicta quidem amet. Excepturi et earum harum alias accusantium explicabo a ut est dolore velit.</p>
+            <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quam velit aut blanditiis amet numquam cupiditate! Reprehenderit quibusdam sint quidem ducimus accusamus ad, veritatis, autem ipsa laborum magni sunt ipsam?</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, cupiditate enim! Assumenda, quae voluptates. Fuga odit nihil fugit ipsum et. Ea unde vel expedita nulla at perferendis optio nobis fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus facere eius eos. Sunt dignissimos, quos et sint, ipsa aliquid, consequuntur porro enim mollitia iste exercitationem? At velit alias expedita natus.</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam consectetur sed veritatis sequi nesciunt libero, amet at quos nulla odio aperiam aspernatur saepe obcaecati doloribus facilis cupiditate nihil, autem delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sed repellat nemo, ipsa reprehenderit sapiente voluptatibus commodi aperiam inventore deserunt minima doloribus quam dolores facere dignissimos iste culpa autem atque.</p>
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>50</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, laboriosam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Sunt dolore, quisquam harum molestias magni autem optio atque, assumenda porro ullam placeat minima nihil inventore quis perspiciatis. <br>Sit dolorum et minima.</p>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+<!--Here is my Signature-->
+
+    <p style="display: flex; align-items: center; justify-content: center; gap: 10px; padding-top: 40px;">
+        Developed By <img src="images/My-signature black.png" style="width: 200px; height: auto;">
+    </p>
+    
+    </p>
+        
+
+</section>
+
+
+
+
+<!--JavaScript for toggle menu for mobile version -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";  
+    }
+</script>
+</body>
+
+</html>
