@@ -97,11 +97,11 @@ main {
     appearance: none; /*this overrides the default browser styling*/
 }
 
-.wf1 input[type = "radio"],
-.wf1 input[type = "checkbox"],{
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"] {
     margin-right: 6px;
-
 }
+
 
 .wf1 input[type = "submit"]{
     border: none;
