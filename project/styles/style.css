@@ -9,13 +9,14 @@ html, body {
   height: 100%;
 }
 
-header {
+/* header {
   padding: 0;
   margin: 0;
-}
+  
+} */
 
 
-.header img {
+/* .header img {
   position: absolute;
   top: 0;
   left: 0;
@@ -23,7 +24,7 @@ header {
   height: 100%;
   object-fit: cover;
   z-index: -1;
-}
+} */
 
 
 
@@ -37,18 +38,39 @@ header {
   height: 100%;
   object-fit: cover;
   z-index: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* this will overlay it */
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/school.webp);
   opacity: 100%; /* optional: to dim the image and make other items pop */
 }
 
 
+
+
 .header .logo-img {
-  width: 200px;
+  width: 160px;
   height: auto;
   z-index: 2;
-  margin-left: 40%;
+  margin-left: 4%;
   padding: 20px;
-  margin-top: 40%;
+  margin-top: -7%;
+}
+
+.header h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  z-index: 2;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+
 }
 
 
@@ -61,11 +83,11 @@ header {
 
 
 
-
+/* 
 .header img{
     width: 100%;
 
-}
+} */
 
 /* Here is the navigation bar*/
 nav {
@@ -200,8 +222,11 @@ nav .fa-solid{
         padding: 30px;
 
     }
-   
-}
+
+  
+} 
+
+
 
 /* New section; Courses we offer */
 .course{
@@ -213,11 +238,8 @@ nav .fa-solid{
     margin-top: 40%;
 
 }
-h1{
-    font-size: 36px;
-    font-weight: 600;
 
-}
+
 
 p{
     color: grey;
@@ -227,6 +249,7 @@ p{
     padding: 10px;
 
 }
+
 
 
 .row{
@@ -285,6 +308,13 @@ h3{
     .layer h3 {
         font-size: 16px; /* Reduce text size for better proportions */
     }
+
+      .course{
+    padding-top: 30px; /* smaller top padding */
+    margin-top: 120%;   /* less vertical space for mobile */
+    text-align: center;
+    justify-content: center;
+  }
    
 }
 
@@ -456,23 +486,37 @@ h3{
 
 /* Call to Action */
 
-.cta{
-    margin: 100px auto;
-    width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/banner2.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
-    
+.cta {
+  position: relative;
+  margin: 100px auto;
+  width: 80%;
+  height: 600px;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/online.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.cta h1{
-    color: white;
-    margin-bottom: 40px;
-    padding: 0;
+.cta h2 {
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
+.hero-btn {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
 
 @media(max-width: 700px){
     .cta h1{
@@ -533,19 +577,28 @@ h3{
 
 }
 
-.about-us{
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
 
-}
 
 .about-us {
+    position: relative;
     width: 80%;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 40%;
     padding-bottom: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .about-us {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding-top: 40%;
+    padding-bottom: 50px;
+    margin-top: 70%;
+    text-align: center;
+}
+
+    
 }
 
 .row {
@@ -561,6 +614,7 @@ h3{
 
 .about-col img {
     width: 100%;
+    height: auto
     border-radius: 10px; /* Optional: adds rounded corners */
 }
 
@@ -585,10 +639,16 @@ h3{
 
 /* This is for the blog page*/
 
+.blog{
+    background-color: #222;
+    position: relative;
+}
+
 .blog-content{
     width: 80%;
     margin: auto;
     padding: 60px 0;
+    margin-top: 35%;
 
 }
 

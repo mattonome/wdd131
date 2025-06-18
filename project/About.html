@@ -1,102 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-<!--Here Is the mobile view icon link-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-
-<!----This is google analytics-->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R64MMM3YT9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-R64MMM3YT9');
-</script>
-
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is the Home Page for Maitama Chamber of Commerce website, where you get all the necessary link to our rich and engaging contents for your business growth and pleasure" />
+  <meta name="author" content="Akhabue Onome Matthew" />
+  <meta property="og:title" content="Maitama Chamber of Commerce">
+  <meta property="og:description" content="Discover the other online activities we carryout at Maitama Chamber of Commerce which includes; advertisement, campaigns, CSRs and advisory roles.">
+  <meta property="og:url" content="https://mattonome.github.io/wdd231/chamber/index.html">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://mattonome.github.io/wdd231/chamber/images/ohio.png" />
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Maitama Chamber of Commerce">
+  <title>Real Base Academy</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<section class="sub-header">
+    <header>
         <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> <!--Here Is the closing icon for mobile -->
-
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="About.html">ABOUT</a></li>
-                    <li><a href="Course.html">COURSES</a></li>
-                    <li><a href="Blog.html">BLOG</a></li>
-                    <li><a href="Contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <!--Here Is the menu icon for mobile view -->
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav>    
-        <h1>About Us</h1>
-
-</section>
-
-<!--About us content -->
-<section class="about-us">
-    <div class="row">
-        <div class="about-col">
-            <h1>We are the world's largest University</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, assumenda officiis officia nisi consectetur amet iure dolore necessitatibus ducimus ullam sit illo ut provident sed animi optio possimus ea eum.</p>
-            <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+        <div class="nav-links" id="navLinks">
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Course.html">COURSES</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
         </div>
-        <div class="about-col">
-            <img src="images/about.jpg" alt="About Us">
-        </div>
-    </div>
-</section>
-
-
-
-
-
-<!--Footer-->
-<section class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, laboriosam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Sunt dolore, quisquam harum molestias magni autem optio atque, assumenda porro ullam placeat minima nihil inventore quis perspiciatis. <br>Sit dolorum et minima.</p>
-    <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-x-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-    </div>
-
-<!--Here is my Signature-->
-
-    <p style="display: flex; align-items: center; justify-content: center; gap: 10px; padding-top: 40px;">
-        Developed By <img src="images/My-signature black.png" style="width: 200px; height: auto;">
-    </p>
-    
-    </p>
+        </nav>
+    </header>
+    <main>
         
+        <section class="header">
+            <h1>About Us</h1>
+            <img src="images/about-us.webp" alt="" class="background-img">
+            <div class="hero-overlay"></div>
+            <a href="index.html">
+            <img src="images/school-logo.webp" alt="Logo" class="logo-img">
+            </a>
+        </section>
 
-</section>
+
+
+        <!--About us content -->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h2>We are the world's largest University</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, assumenda officiis officia nisi consectetur amet iure dolore necessitatibus ducimus ullam sit illo ut provident sed animi optio possimus ea eum.</p>
+                    <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/online.webp" alt="About Us">
+                </div>
+            </div>
+        </section>
 
 
 
 
-<!--JavaScript for toggle menu for mobile version -->
-<script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";  
-    }
-</script>
+
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, laboriosam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Sunt dolore, quisquam harum molestias magni autem optio atque, assumenda porro ullam placeat minima nihil inventore quis perspiciatis. <br>Sit dolorum et minima.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+        <!--Here is my Signature-->
+
+            <p style="display: flex; align-items: center; justify-content: center; gap: 10px; padding-top: 40px;">
+                Developed By <img src="images/My-signature black.png" style="width: 200px; height: auto;">
+            </p>
+            
+            </p>
+                
+
+        </section>
+
+
+
+
+        
+    </main>
 </body>
 
 </html>
