@@ -9,7 +9,7 @@
   <meta property="og:description" content="Discover the other online activities we carryout at Maitama Chamber of Commerce which includes; advertisement, campaigns, CSRs and advisory roles.">
   <meta property="og:url" content="https://mattonome.github.io/wdd231/chamber/index.html">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://mattonome.github.io/wdd231/chamber/images/ohio.png" />
+  <meta property="og:image" content="https://mattonome.github.io/wdd231/chamber/images/school-logo.webp" />
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Maitama Chamber of Commerce">
   <title>Real Base Academy</title>
@@ -25,6 +25,7 @@
 <body>
   <header>
     <nav>
+      <button id="menuToggle" aria-label="Toggle menu">☰</button>
       <div class="nav-links" id="navLinks">
         <ul>
           <li><a href="index.html">HOME</a></li>
@@ -34,45 +35,41 @@
           <li><a href="Contact.html">CONTACT</a></li>
         </ul>
       </div>
-      <button id="menuToggle" aria-label="Toggle menu">☰</button>
     </nav>
   </header>
 
-  <!--  Move this OUTSIDE the header tag -->
   <section class="header">
     <img src="images/school.webp" alt="" class="background-img">
     <a href="index.html">
-    <div class="hero-overlay"></div>
-
+      <div class="hero-overlay"></div>
       <img src="images/school-logo.webp" alt="Logo" class="logo-img">
     </a>
   </section>
 
-
   <main>
     <div class="text-box">
-      <h1>World's Biggest University</h1>
-      <p>Making website is one of the most easiest thing in the world. You just need to learn Html, CSS and <br>Javascript and you are good to go.</p>
-      <a href="" class="hero-btn">Visit Us To Know More</a>
+      <h1>Inspiring Minds, Building Futures</h1>
+      <p>We nurture curiosity, foster creativity, and equip every student with the knowledge and values they need to succeed in a rapidly changing world.<br> 
+        Through passionate teaching, a supportive environment, and real-world learning opportunities, we help students grow into confident leaders ready to shape tomorrow. </p>
+      <a href="about.html" class="hero-btn">Know More</a>
     </div>
 
-    
     <!-- Course section -->
     <section class="course">
       <h1>Courses we offer</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>At Real Base Academy, we offer a diverse range of courses designed to equip students with practical skills,<br> in-depth knowledge, and a strong foundation for success. Whether you're aiming for academic excellence, career<br> advancement, or personal development, our programs are tailored to meet your goals. From foundational <br>certificates to advanced degrees, each course is delivered by experienced instructors using modern teaching <br>methods and real-world applications.</p>
       <div class="row">
         <div class="course-col">
-          <h3>Intermediate</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore mollitia maxime amet sunt est autem hic qui rem necessitatibus sint! Saepe sit adipisci mollitia atque nobis qui aspernatur aut officiis.</p>
+          <h3>Full Stack Web Development</h3>
+          <p>Master the front-end and back-end of modern web applications in this comprehensive course. Students will learn HTML, CSS, JavaScript, and popular frameworks like React and Node.js, along with database management and deployment techniques. Whether you're a beginner or looking to sharpen your coding skills, this course provides the practical knowledge needed to build responsive, interactive websites from scratch.</p>
         </div>
         <div class="course-col">
-          <h3>Degree</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore mollitia maxime amet sunt est autem hic qui rem necessitatibus sint! Saepe sit adipisci mollitia atque nobis qui aspernatur aut officiis.</p>
+          <h3>Digital Marketing & Business Strategy</h3>
+          <p>This course empowers aspiring entrepreneurs and business professionals with digital tools and strategies for success. You'll explore SEO, social media marketing, analytics, branding, and customer engagement tactics tailored for online and offline businesses. Perfect for small business owners, freelancers, and marketing teams looking to scale their impact in a digital-first economy.</p>
         </div>
         <div class="course-col">
-          <h3>Post Graduation</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore mollitia maxime amet sunt est autem hic qui rem necessitatibus sint! Saepe sit adipisci mollitia atque nobis qui aspernatur aut officiis.</p>
+          <h3>Graphic Design & Creative Branding</h3>
+          <p>Turn your creativity into a career with this hands-on graphic design course. Learn design principles, Adobe Creative Suite tools (like Photoshop and Illustrator), and visual storytelling techniques that bring ideas to life. Students will work on real-world projects, from logos to social media campaigns, building a portfolio that showcases both technical skill and artistic vision.</p>
         </div>
       </div>
     </section>
@@ -80,22 +77,22 @@
     <!-- Campus section -->
     <section class="campus">
       <h1>Our Global Campus</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Real Base Academy is proud to have a strong global presence, with vibrant campuses located in some of the world’s most iconic cities. From the innovation hub of London to the fast-paced energy of New York and the political heartbeat of Washington, D.C..</p>
       <div class="row">
         <div class="campus-col">
-          <img src="images/london.png" alt="London">
+          <img src="images/london.webp" alt="London">
           <div class="layer">
             <h3>LONDON</h3>
           </div>
         </div>
         <div class="campus-col">
-          <img src="images/newyork.png" alt="New York">
+          <img src="images/newyork.webp" alt="New York">
           <div class="layer">
             <h3>NEWYORK</h3>
           </div>
         </div>
         <div class="campus-col">
-          <img src="images/washington.png" alt="Washington">
+          <img src="images/washington.webp" alt="Washington">
           <div class="layer">
             <h3>WASHINGTON</h3>
           </div>
@@ -106,22 +103,22 @@
     <!-- Facilities section -->
     <section class="facilities">
       <h1>Our Facilities</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>At Real Base Academy, we are committed to providing an enriching environment where students can thrive academically, socially, and personally.</p>
       <div class="row">
         <div class="facilities-col">
-          <img src="images/library.png" alt="Library">
+          <img src="images/library.webp" alt="Library">
           <h3>World-Class Library</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>This is a hub of knowledge and research, equipped with a vast collection of books, digital resources, and study spaces designed for collaborative and independent learning</p>
         </div>
         <div class="facilities-col">
-          <img src="images/basketball.png" alt="Playground">
+          <img src="images/basketball.webp" alt="Playground">
           <h3>Largest Playground</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Our playing dround promotes physical wellness and team spirit through a variety of sports and recreational activities in a spacious, modern setting. For nourishment and social connection</p>
         </div>
         <div class="facilities-col">
-          <img src="images/cafeteria.png" alt="Cafeteria">
+          <img src="images/cafeteria.webp" alt="Cafeteria">
           <h3>Tasty and Healthy Food</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>This  offers a wide range of delicious, nutritious meals in a clean and welcoming atmosphere—supporting students’ health and productivity throughout the day.</p>
         </div>
       </div>
     </section>
@@ -129,57 +126,40 @@
     <!-- Testimonials -->
     <section class="testimonials">
       <h1>What Our Students Say</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>At Real Base Academy, we take pride in the experiences and growth of our students.<br> Their voices reflect the quality of education, support, and vibrant community they’ve found within our institution.</p>
       <div class="row">
         <div class="testimonials-col">
-          <img src="images/user1.jpg" alt="Christine Berkley">
+          <img src="images/user1.webp" alt="Christine Berkley">
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>“Real Base Academy gave me the confidence and skills to pursue my dreams—both academically and <br>professionally.”</p>
             <h3>Christine Berkley</h3>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="far fa-star"></i>
           </div>
         </div>
         <div class="testimonials-col">
-          <img src="images/user2.jpg" alt="David Byer">
+          <img src="images/user2.webp" alt="David Byer">
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>“The supportive environment and world-class resources at Real Base Academy helped me grow into a more capable and ambitious person.”</p>
             <h3>David Byer</h3>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+    
           </div>
         </div>
       </div>
     </section>
 
     <!-- Call to Action -->
-     
     <section class="cta">
       <h2>Enrol for our various online courses <br>anywhere from the world</h2>
-      <a href="" class="hero-btn">CONTACT US</a>
+      <a href="contact.html" class="hero-btn">CONTACT US</a>
     </section>
-
   </main>
 
   <!-- Footer -->
   <footer class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, laboriosam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Sunt dolore, quisquam harum molestias magni autem optio atque, assumenda porro ullam placeat minima nihil inventore quis perspiciatis. <br>Sit dolorum et minima.</p>
-    <div class="social-icons">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-x-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-    </div>
+    <h4>Us in Brief</h4>
+    <p>At Real Base Academy, we proudly hold the distinction of being the world’s largest university<br>—a thriving hub of innovation, diversity, and academic excellence. With campuses across major global cities and an <br>extensive online learning network, we offer unmatched access to quality education regardless of your location.</p>
+    
     <p style="display: flex; align-items: center; justify-content: center; gap: 10px; padding-top: 40px;">
-      Developed By <img src="images/My-signature black.png" style="width: 200px; height: auto;" alt="Signature">
+      Developed By <img src="images/My-signature black.webp" style="width: 200px; height: auto;" alt="Signature">
     </p>
   </footer>
 </body>

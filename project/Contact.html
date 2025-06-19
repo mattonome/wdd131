@@ -23,19 +23,20 @@
 </head>
 
 <body>
-<header>
-        <nav>
-        <div class="nav-links" id="navLinks">
-            <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="About.html">ABOUT</a></li>
-            <li><a href="Course.html">COURSES</a></li>
-            <li><a href="Blog.html">BLOG</a></li>
-            <li><a href="Contact.html">CONTACT</a></li>
-            </ul>
-        </div>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <button id="menuToggle" aria-label="Toggle menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="Course.html">COURSES</a></li>
+          <li><a href="Blog.html">BLOG</a></li>
+          <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
     <main>
         
         <section class="header">
@@ -48,16 +49,15 @@
         </section>
 
 <!--Cantact Us -->
-<section class="location">
+<!-- <section class="location">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74041.68133575148!2d-1.3054481912607332!3d54.554606211332235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e935561999019%3A0x6f839f20e3c1fa9c!2sMiddlesbrough%2C%20UK!5e0!3m2!1sen!2sng!4v1740758316860!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-</section>
+</section> -->
 
 <section class="contact-us">
     <div class="row">
         <div class="contact-col">
             <div>
-                <i class="fas fa-map-marker-alt"></i> <!-- Corrected home icon -->
                 <span>
                     <h5>XYZ Road, ABC Building</h5>
                     <p>Middlesbrough, United Kingdom</p>
@@ -85,7 +85,7 @@
                 <input type="email" name ="email" placeholder="Enter Your Email Address" required>
                 <input type="text" name = "subject" placeholder="Enter Your Subject" required>
                 <textarea rows="8" name= "message" placeholder="Message" required></textarea>
-                <button type="submit" class="hero-btn red-btn">Send Message</button>
+                <button type="submit" class="hero-btn red-btn">Reach Us</button>
 
 
 
@@ -102,8 +102,8 @@
 
 <!--Footer-->
 <section class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, laboriosam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Sunt dolore, quisquam harum molestias magni autem optio atque, assumenda porro ullam placeat minima nihil inventore quis perspiciatis. <br>Sit dolorum et minima.</p>
+    <h4>Us in Brief</h4>
+    <p>At Real Base Academy, we proudly hold the distinction of being the world’s largest university<br>—a thriving hub of innovation, diversity, and academic excellence. With campuses across major global cities and an <br>extensive online learning network, we offer unmatched access to quality education regardless of your location..</p>
     <div class="social-icons">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-x-twitter"></i></a>
@@ -121,21 +121,7 @@
     </p>
         
 
-</section>
 
-
-
-
-<!--JavaScript for toggle menu for mobile version -->
-<script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";  
-    }
-</script>
 </body>
 
 </html>

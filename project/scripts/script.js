@@ -1,20 +1,27 @@
+// === Navigation Toggle ===
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.getElementById("menuToggle");
+  const navLinks = document.getElementById("navLinks");
 
-
-
-
-
-// menu-toggle.js
-
-const navLinks = document.getElementById("navLinks");
-
-function showMenu() {
-  if (navLinks) {
-    navLinks.style.right = "0";
+  if (toggleBtn && navLinks) {
+    toggleBtn.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+      toggleBtn.textContent = navLinks.classList.contains("show") ? "✖" : "☰";
+    });
   }
-}
 
-function hideMenu() {
-  if (navLinks) {
-    navLinks.style.right = "-200px";
+  // === Wayfinder Function ===
+  function highlightCurrentPage() {
+    const currentPath = window.location.pathname.split("/").pop();
+    const navLinks = document.querySelectorAll("nav ul li a");
+
+    navLinks.forEach(link => {
+      const linkPath = link.getAttribute("href");
+      if (linkPath === currentPath) {
+        link.classList.add("active");
+      }
+    });
   }
-}
+
+  highlightCurrentPage(); // Call it on page load
+});
